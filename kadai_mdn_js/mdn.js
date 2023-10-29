@@ -1,8 +1,10 @@
-const today = new Date("September 22, 2023");
+const start = Date.now();
+
+const today = new Date("August 22, 2023");
 
 const year = today.getFullYear();
 
-const month = today.getMonth();
+const month = today.getMonth()+1;
 
 const date = today.getDate();
 
