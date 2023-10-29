@@ -4,14 +4,15 @@ const holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 // 配列の値の出力をする
 console.log(holidays);
 
-// 変数holidaysの値が0以外である間、変数holidaysの値を出力し続ける
-while(holidays !== 0){
-    console.log(holidays);
-}
-
-// 1〜15までの数値を順番に出力する
 for(let i = 1; i <= 15; i++) {
     console.log(i);
 }
+
+// 変数holidaysの値が0以外である間、変数holidaysの値を出力し続ける
+while(holidays !== 0){
+    holidays = Math.floor(Math.random() * 14);
+    console.log(holidays);
+}
+
 
 
