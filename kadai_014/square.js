@@ -1,5 +1,5 @@
-const calculateTotal = () => {
-  console.log(Math.pow(10, 2));
+const calculateTotal = (num) => {
+  return num * 10;
 }
 
-calculateTotal(100);
+console.log(calculateTotal(10));
